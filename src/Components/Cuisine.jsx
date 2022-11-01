@@ -1,0 +1,54 @@
+import React from "react";
+import { Col, Image, Row } from "react-bootstrap";
+import Header from "./Header";
+
+import bgConcept from "../img/conceptpagebg.png";
+import Headerwhite from "./Headerwhite";
+import ph1 from "../img/cuisinephoto.png";
+
+
+const Cuisine = () => {
+  return (
+    <div
+      className="pagecontainer"
+      style={{
+        backgroundImage: `url(${bgConcept})`,
+        backgroundSize: "100%",
+        backgroundRepeat: "none",
+      }}
+    >
+      <Headerwhite />
+
+      {/* contenu de page houni !! */
+    
+      <Row>
+        <Col xs={1} md={1}>
+      </Col>
+        <Col xs={6} md={4}>
+          <Image className="img_concept" src="https://www.timeoutdoha.com/cloud/timeoutdoha/2022/07/28/Cafe-999-2-1024x768.jpg"/>
+      
+      </Col>
+      
+      <Col xs={9} md={5}>
+      <h1 className="h1_white">tincidunT <br /> dolore magna</h1>
+       <p className="p_white">Alain Ducasse celebrates high standards and sophistication, steeped in 
+the Islamic golden age. Prepare to embark on a journey of discovery, 
+as you sample contemporary Mediterranean cuisine with a twist of 
+eclectic Arabian flavours.<br />Your surroundings will also take you to new heights. Located at the top 
+floor of the iconic Museum of Islamic Art, IDAM’s exquisite design was 
+created by Phillipe Starck who has fused modernity with classicism to 
+offer a dynamic environment with Arabian touches.</p>
+<button class=" button_pink rounded-lg"  variant="secondary">DISCOVER OUR MEN</button>
+      </Col>
+      </Row>
+
+     
+      
+      
+      
+      }
+    
+    </div>
+  );
+};
+export default Cuisine;

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+body {
+  margin: 0 !important;
+  font-family: "PT Sans", sans-serif !important;
+}
+.header-container {
+  margin: 0 8%;
+}
+.header {
+  margin: 2vh 0;
+}
+.redlogo {
+  width: 100px;
+}
+
+.navlink {
+  font-weight: 700 !important;
+}
+
+.pagecontainer {
+  height: 100vh;
+}
+.h1_home{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+  size: 20px;
+
+  color: red;
+  text-decoration-style: double;
+
+  text-transform:  uppercase;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.h1_white{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+  size: 20px;
+
+  color:white;
+  text-decoration-style: double;
+
+  text-transform:  uppercase;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.h4_home{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+  size: 20px;
+
+  color:black;
+  text-decoration-style: double;
+
+  /*text-transform: capitalize;*/
+  line-height: 1.5;
+  font-weight:normal;
+}
+.button_home{
+ 
+  background-color: yellow;
+  color:red;
+  border-color: transparent;
+  border-radius: 0.5px;
+}
+.img_concept{
+  border-top-left-radius: 30%;
+  width: 150;
+  height:40%;
+ 
+}
+.img_team{
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  width: 150;
+  height:45%;
+}
+.p_concept{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+ 
+  color:black;
+  text-decoration-style: double;
+
+  /*text-transform: capitalize;*/
+  line-height: 1;
+  font-weight:normal;
+}
+.p_white{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+ 
+  color:white;
+  text-decoration-style: double;
+
+  /*text-transform: capitalize;*/
+  line-height: 1;
+  font-weight:normal
+}
+.button_pink{
+ 
+  background-color: rgb(224, 40, 101);
+  color: white;
+  border-color: transparent;
+  border-radius: 1px;
+}
+.mvh-100 {
+  min-height: 50vh;
+}
+.mvh-90 {
+  min-height: 50vh;
+}
