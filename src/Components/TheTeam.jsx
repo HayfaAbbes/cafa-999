@@ -1,13 +1,12 @@
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import Header from "./Header";
-
-import bgConcept from "../img/conceptpagebg.png";
+import bgTeam from "../img/theteambg-04.png";
 import Headerwhite from "./Headerwhite";
-import ph1 from "../img/cuisinephoto.png";
 import {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Footer from "./Footer";
+import teamImg from "../img/theteamimg1-01.png";
 
 
 const TheTeam = () => {
@@ -19,14 +18,14 @@ const TheTeam = () => {
   <div
   className="pagecontainer"
   style={{
-    backgroundImage: `url(${bgConcept})`,
+    backgroundImage: `url(${bgTeam})`,
     backgroundSize: "100%",
     backgroundRepeat: "none",
   }}
 >
   <Headerwhite />
 
-  {/* contenu de page houni !! */
+  {
   
 
   <Row>
@@ -38,25 +37,25 @@ const TheTeam = () => {
  <Carousel.Item>
    <img 
      className="img_team"
-     src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
+     src={teamImg }
      alt="cafe_999"   
    />
    
  </Carousel.Item>
  <Carousel.Item>
-   <img
+   <img 
      className="img_team"
-     src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
-     alt="cafe_999"
+     src={teamImg }
+     alt="cafe_999"   
    />
 
    
  </Carousel.Item>
  <Carousel.Item>
-   <img
+   <img 
      className="img_team"
-     src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
-     alt="cafe_999"
+     src={teamImg }
+     alt="cafe_999"   
    />
 
  

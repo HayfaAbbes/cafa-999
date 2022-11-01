@@ -69,16 +69,20 @@ body {
   border-radius: 0.5px;
 }
 .img_concept{
-  border-top-left-radius: 30%;
-  width: 150;
-  height:40%;
+  
+  width: 99%;
+  height:auto;
  
 }
 .img_team{
-  border-top-right-radius: 45%;
-  border-bottom-right-radius: 45%;
-  width: 150;
-  height:45%;
+
+  width: 100%;
+  height: auto;
+}
+.img_cuisine{
+ 
+  width: 33%;
+  height: auto;
 }
 .p_concept{
   text-align: justify;
@@ -105,11 +109,11 @@ body {
   font-weight:normal
 }
 .button_pink{
- 
+   border-radius: 2rem;
   background-color: rgb(224, 40, 101);
   color: white;
   border-color: transparent;
-  border-radius: 1px;
+ 
 }
 .mvh-100 {
   min-height: 50vh;

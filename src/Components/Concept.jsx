@@ -16,7 +16,7 @@ const Concept = () => {
     >
       <Header />
 
-      {/* contenu de page houni !! */
+      {
     
       <Row>
         <Col xs={1} md={1}>
@@ -38,10 +38,6 @@ created by Phillipe Starck who has fused modernity with classicism to
 offer a dynamic environment with Arabian touches.</p>
       </Col>
       </Row>
-
-     
-      
-      
       
       }
     

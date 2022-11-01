@@ -15,7 +15,7 @@ const Home = () => {
     >
       <Header />
 
-      {/* contenu de page houni !! */
+      {
       <Row>
          <Col xs={1} md={1}>
       </Col>

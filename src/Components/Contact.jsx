@@ -1,6 +1,6 @@
 import React from "react";
 import Headerwhite from "./Headerwhite";
-import bgConcept from "../img/conceptpagebg.png";
+import bgContact from "../img/contactbg-05.png";
 import { Col, Container, Row } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import bootstrap from "bootstrap"; // eslint-disable-line no-unused-vars
@@ -85,13 +85,14 @@ const modalMapStyles = [
 
 const Contact = () => {
   return(
-    <>
+   
    
     <div
     className="pagecontainer"
     style={{
-      backgroundImage: `url(${bgConcept})`,
-      backgroundSize: "100%",
+      backgroundImage: `url(${bgContact})`,
+      backgroundSize: "50%",
+     
       backgroundRepeat: "none",
     }}
   >
@@ -105,15 +106,13 @@ const Contact = () => {
       <Col>
 
        <h1 className="h1_white" expand="lg">
-       CONTact US
-       
-        </h1>
-          
-        
+       CONTact US      
+        </h1>    
         </Col>
      </Row>
      
-      <Row> 
+     
+      <Row > 
        <Col className="p_white">Phone: +974 555 666</Col>
        </Row>
        <Row>
@@ -131,9 +130,7 @@ const Contact = () => {
       }
     
     </div>
-     <Footer/>
-   
-     </>
+     
    
   );
 };

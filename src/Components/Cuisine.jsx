@@ -1,31 +1,37 @@
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import Header from "./Header";
-
-import bgConcept from "../img/conceptpagebg.png";
+import bgCuisine from "../img/cuisinebg-03.png";
 import Headerwhite from "./Headerwhite";
-import ph1 from "../img/cuisinephoto.png";
-
+import phcuisine1 from "../img/cuisineimg1-01.png";
+import phcuisine2 from "../img/cuisineimg2-01.png";
+import phcuisine3 from "../img/cuisineimg03-01.png";
+import phcuisine4 from "../img/cuisineimg04-01-01.png";
 
 const Cuisine = () => {
   return (
     <div
       className="pagecontainer"
       style={{
-        backgroundImage: `url(${bgConcept})`,
+        backgroundImage: `url(${bgCuisine})`,
         backgroundSize: "100%",
         backgroundRepeat: "none",
       }}
     >
       <Headerwhite />
 
-      {/* contenu de page houni !! */
+      {
     
       <Row>
         <Col xs={1} md={1}>
       </Col>
         <Col xs={6} md={4}>
-          <Image className="img_concept" src="https://www.timeoutdoha.com/cloud/timeoutdoha/2022/07/28/Cafe-999-2-1024x768.jpg"/>
+          <Image className="img_concept"   style={{  padding: 3}} src={phcuisine1}/>
+       
+          
+          <Image   className="img_cuisine"  style={{  padding: 3}} src={phcuisine2}/>
+          <Image   className="img_cuisine"  style={{  padding: 3}} src={phcuisine3}/>
+          <Image   className="img_cuisine"  style={{  padding: 3}} src={phcuisine4}/>
       
       </Col>
       
@@ -41,10 +47,7 @@ offer a dynamic environment with Arabian touches.</p>
 <button class=" button_pink rounded-lg"  variant="secondary">DISCOVER OUR MEN</button>
       </Col>
       </Row>
-
-     
-      
-      
+ 
       
       }
     
