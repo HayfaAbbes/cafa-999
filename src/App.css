@@ -48,6 +48,21 @@ body {
   font-weight: 900;
 
 }
+.h5_white{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+  size: 20px;
+  font-size:larger;
+
+  color:white;
+  text-decoration-style: double;
+
+  text-transform:  uppercase;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
 .h4_home{
   text-align: justify;
   vertical-align: text-top;
@@ -68,10 +83,18 @@ body {
   border-color: transparent;
   border-radius: 0.5px;
 }
+.img_cpt{
+  
+  width: 100%; 
+  height: max-content;
+  border-top-left-radius: 8rem;
+ 
+}
 .img_concept{
   
   width: 99%;
   height:auto;
+ 
  
 }
 .img_team{
@@ -120,4 +143,19 @@ body {
 }
 .mvh-90 {
   min-height: 50vh;
+}
+.td_white{
+  text-align: justify;
+  vertical-align: text-top;
+  text-size-adjust: 100;
+  size: 20px;
+  font-size: small;
+
+  color:white;
+  text-decoration-style:normal;
+
+  text-transform:  uppercase;
+  line-height: 1;
+  font-weight: 20;
+
 }
